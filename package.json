@@ -1,0 +1,24 @@
+{
+  "name": "hacker-rank",
+  "version": "1.0.0",
+  "description": "hacker rank tests",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hacker",
+    "rank",
+    "tests",
+    "javascript",
+    "node"
+  ],
+  "author": "AlbertoAlejandro10",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
