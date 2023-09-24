@@ -20,6 +20,7 @@ function countingValleys (steps, path) {
       }
     }
   }
+  console.log(valleys)
   return valleys
 }
 
