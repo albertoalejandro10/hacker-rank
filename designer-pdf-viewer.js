@@ -21,8 +21,8 @@ function designerPdfViewer (h, word) {
   const result = words.map(element => {
     return arr.filter(x => x.letter === element)
   })
-  const numbers = result.map(function (obj) {
-    return obj[0].number
+  const numbers = result.map(element => {
+    return element[0].number
   })
 
   const maxNumber = Math.max.apply(Math, numbers)
